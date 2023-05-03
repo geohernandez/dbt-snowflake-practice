@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "dbt-snowflake-practice"
+version = "0.1.0"
+description = "Practice about the use of snowflake and dbt"
+authors = ["Geo Hernandez <geohernandez@gmail.com>"]
+readme = "README.md"
+packages = [{include = "dbt_snowflake_practice"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+dbt-snowflake = "^1.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
